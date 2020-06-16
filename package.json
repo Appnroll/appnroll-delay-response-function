@@ -1,0 +1,24 @@
+{
+  "name": "@appnroll/appnroll-delay-response-function",
+  "version": "1.0.0",
+  "description": "Delays async function to be resolved not earlier than after given time.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Appnroll/appnroll-delay-response-function.git"
+  },
+  "author": "@appnroll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Appnroll/appnroll-delay-response-function/issues"
+  },
+  "homepage": "https://github.com/Appnroll/appnroll-delay-response-function#readme",
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  }
+}
