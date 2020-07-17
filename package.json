@@ -14,6 +14,9 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Appnroll/appnroll-delay-response-function.git"
