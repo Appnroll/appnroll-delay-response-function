@@ -20,5 +20,5 @@ yarn add @appnroll/appnroll-delay-response-function
 ```
 ## Usage
 ```TS
-
+await delayResponse(somePromise, timeToResolve)
 ```
