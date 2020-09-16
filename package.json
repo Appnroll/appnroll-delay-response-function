@@ -1,6 +1,6 @@
 {
   "name": "@appnroll/delay-response",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delays async function to be resolved not earlier than after given time.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
