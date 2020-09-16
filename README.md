@@ -35,7 +35,7 @@ const fakePromise = async () =>
     }, 125)
   })
 
-const data = await delayResponse(fakePromise: Promise<unknown>, 1000: number)
+const data = await delayResponse(fakePromise, 1000)
 
 // Console will log after 1s even though fakePromise was resolved in 125ms
 console.log(data) // "resolved"
