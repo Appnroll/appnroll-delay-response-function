@@ -7,18 +7,36 @@
   Delay response function
 </h1>
 
-A function that delays async function to be resolved not earlier than after given time.
+An async function that delays other async function to be resolved not earlier than after given time.
 
 ## Install
 
 ```
-npm install @appnroll/appnroll-delay-response-function
+npm install @appnroll/delay-response
 
 # or
 
-yarn add @appnroll/appnroll-delay-response-function
+yarn add @appnroll/delay-response
 ```
+
 ## Usage
+
 ```TS
-await delayResponse(somePromise, timeToResolve)
+await delayResponse(somePromise, timeInMsToResolve)
+```
+
+## Example
+
+```TS
+const fakePromise = async () =>
+  await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("resolved")
+    }, 125)
+  })
+
+const data = await delayResponse(fakePromise: Promise<unknown>, 1000: number)
+
+// Console will log after 1s even though fakePromise was resolved in 125ms
+console.log(data) // "resolved"
 ```

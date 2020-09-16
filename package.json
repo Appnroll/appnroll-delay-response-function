@@ -6,7 +6,6 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "prepublish": "npm run build",
     "test": "jest --config jest.config.json",
     "format": "prettier --write \"src/**/*.ts\"",
     "prepare": "npm run build",
@@ -15,7 +14,7 @@
     "postversion": "git push && git push --tags"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -41,5 +40,6 @@
   },
   "files": [
     "dist/**/*"
-  ]
+  ],
+  "dependencies": {}
 }
