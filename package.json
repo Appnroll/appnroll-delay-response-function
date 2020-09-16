@@ -33,7 +33,7 @@
   "homepage": "https://github.com/Appnroll/appnroll-delay-response-function#readme",
   "devDependencies": {
     "@types/jest": "^26.0.4",
-    "codecov": "^3.7.0",
+    "codecov": "^3.7.1",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "ts-jest": "^26.1.3",
