@@ -1,5 +1,5 @@
 {
-  "name": "@appnroll/appnroll-delay-response-function",
+  "name": "@appnroll/delay-response",
   "version": "1.0.0",
   "description": "Delays async function to be resolved not earlier than after given time.",
   "main": "dist/index.js",
@@ -32,12 +32,12 @@
   },
   "homepage": "https://github.com/Appnroll/appnroll-delay-response-function#readme",
   "devDependencies": {
-    "@types/jest": "^26.0.4",
-    "codecov": "^3.7.1",
-    "jest": "^26.1.0",
-    "prettier": "^2.0.5",
-    "ts-jest": "^26.1.3",
-    "typescript": "^3.9.3"
+    "@types/jest": "^26.0.13",
+    "codecov": "^3.7.2",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
   },
   "files": [
     "dist/**/*"
